@@ -1,0 +1,525 @@
+/* GENERAL------------------------------------------------------------------------------------*/
+header,section,footer{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Impact;
+}
+header{
+	height: 200px;
+	background: -webkit-linear-gradient(bottom ,#428FAB,#63B74C,#109B08);
+
+	
+}
+
+/*LOGO--------------------------------------------------------------------------------------------------*/
+
+#logo{
+	width: 200px;
+	height: 100px;
+	background-color: darkred;
+	float: left;
+	margin: 30px;
+	background: url(imagenes/logo_principal.png) no-repeat center;
+	padding: 10px;
+	box-sizing: border-box;
+	
+
+
+
+}
+
+/*BOTONERA---------------------------------------------------------------------------------------*/ 
+
+#botonera1{
+	width: 600px;
+	height: 60px;
+	
+	float: right;
+	margin: 40px;
+
+}
+#botonera1 ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+	
+}
+#botonera1 ul li{
+	display: inline-block;
+	border-style: solid;
+	border-width: 2.4px;
+	border-color: black;
+	border-radius: 10px;
+	text-align: center;
+	height: 55px;
+	font-family: Kdam Thmor Pro;
+
+}
+#botonera1 ul li a{
+	display: inline-block;
+	padding: 20px 10px ;
+	color: black;
+	text-decoration: none;
+
+
+}
+#botonera1 ul li a:hover{
+background: -webkit-linear-gradient(left,#0038F3,#5D2ACA);	
+height: 15px;
+	color: white;
+}
+
+/*CONTENIDO DE LAS CAJAS ---------------------------------------------------------------------------*/
+
+#contenido1 {
+	width: 960px;
+	height: 800px;
+	background: -webkit-linear-gradient(bottom ,#428FAB,#15A2C5,#5118F4);
+}
+#contenido2 {
+	width: 960px;
+	height: 800px;
+	background-color: purple;
+}
+#contenido3 {
+	width: 960px;
+	height: 800px;
+	background-color: yellow;
+}
+#contenido4{
+	width: 960px;
+	height: 1200px;
+	background-color:black;
+
+}
+#nuevo4{
+background-color: red;
+}
+#cajas_secc4{
+	height: 500px;
+}
+#caja1_4{
+	background-color:blue;
+	height: 550px;
+}
+#caja2_4{
+	background-color: blue;
+	height: 550px;
+}
+#caja3_4{
+	background-color: #5118F4;
+	height: 200px;
+}
+#caja4_4{
+	background-color:#5118F4;
+	height: 100px;
+}
+#caja5_4{
+	background-color: black;
+	height: 300px;
+}
+#caja6_4{
+	background-color: black;
+	height: 300px;
+}
+h1{
+	text-align: center;
+	color:white;
+	font-family: Comic Sans MS;
+}
+#caja11 {
+	width: 300px;
+	height:300px;
+	float: left;
+	background-color: blue;
+	margin: 10px;
+	border-radius: 10px;
+	
+}
+#caja11 img{
+	width: 100%;
+}
+#caja12 {
+	width: 300px;
+	height:300px;
+	float: left;
+	background-color: blue;
+	margin: 10px;
+	border-radius: 10px;
+}
+#caja12 img{
+	width: 100%;
+}
+#caja13 {
+	width: 300px;
+	height:300px;
+	float: left;
+	background-color: blue;
+	margin: 10px;
+	border-radius: 10px;
+}
+#caja13 img{
+	width: 100%;
+}
+#caja14 {
+	width: 300px;
+	height:300px;
+	float: left;
+	background-color: blue;
+	margin: 10px;
+	border-radius: 10px;
+}
+#caja14 img{
+	width: 100%;
+}
+#caja15 {
+	width: 300px;
+	height:300px;
+	float: left;
+	background-color: blue;
+	margin: 10px;
+	border-radius: 10px;
+}
+#caja15 img{
+	width: 100%;
+}
+#caja16 {
+	width: 300px;
+	height:300px;
+	float: left;
+	background-color: blue;
+	margin: 10px;
+	border-radius: 10px;
+}
+#caja16 img{
+	width: 100%;
+}
+h2{
+	color: white;
+	text-align: center;
+	font-family: Bebas Neue;
+	font-size: 30px;
+	margin: 60px;
+
+}
+#nuevo1{
+	width: 930px;
+	height:100px;
+	background-color: darkblue;
+	margin: 10px;
+	clear: both;
+	border-radius: 50px;
+
+}
+h4{
+	text-align: center;
+	color: white;
+	border-color: black;
+	font-size: 22px;
+	font-family: Cambria;
+}
+.caja2{
+	width: 300px;
+	height: 700px;
+	background-color: lightcoral;
+	float: left;
+	margin: 10px;
+}
+.nuevo2{
+	width: 450px;
+	height: 50px;
+	background-color: darkgreen;
+	float: left;
+	margin: 10px;
+}
+.caja3{ 
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: red;
+	margin: 20px;
+
+}
+.caja3 img{
+	width: 100%;
+}
+
+#nuevo3{
+	height: 300px;
+	width: 900px;
+	background-color: blueviolet;
+	margin: 30px;
+	clear: left;
+}
+.cuest{
+	color: whitesmoke;
+	font-family: Kdam Thmor Pro;
+	
+
+}
+#borrar{
+	font-size: 20px;
+	text-align: center;
+	color:red;
+}
+/*PIE DE LA PAGINA-----------------------------------------------------------*/
+
+footer{
+	height: 70px;
+	background: -webkit-linear-gradient(right ,#5FD5FD,#15A2C5,#5118F4);
+	border-radius: 30px;
+	border-color: black;
+	
+}
+#pie1{
+	background-color: lightblue;
+	width: 400px;
+	height: 50px;
+	float: right;
+	margin: 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+
+}
+h3{	
+	text-align: right;
+	color: black;
+	margin-right: 6px;
+	}
+
+.autor{
+
+	text-align: center;
+	font-family: comic sans ms;
+	}
+/*RESPONSIVE--------------------------------------------------------------------------------------------------------------------------*/
+@media all and (min-width: 600px) and (max-width: 1023px){
+	header, #contenido1, #contenido2, #contenido3, #contenido4, footer {
+		width: 580px;
+	
+
+	}
+	#logo{
+		width: 140px;
+		
+	}
+	#botonera1{
+		width: 330px;
+		
+		margin-top: 1px;
+		margin-left: 1px;
+		height: 10%;
+		
+		
+	}
+	#botonera1 ul li{
+		height: 50px;
+	}
+	
+
+	#caja11,#caja12,#caja13,#caja14,#caja15,#caja16{
+		width: 150px;
+		height: 250px;
+		margin: 20px;
+		float: right;
+	}
+	#nuevo1{
+		width: 500px;
+		height: 150px;
+		margin: 40px;
+
+
+
+	}
+	.caja2{
+		font-size: 12px;
+	}
+	
+	
+	#caja3_4,#caja5_4, #caja6_4{
+		height: auto;
+	}
+	#contenido4{
+		height: 1350px;
+	}
+	h1{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 26px;
+		margin: 30px;
+	}
+	.caja2{
+		width: 172px;
+	}
+	.nuevo2{
+		width: 265px;
+	}
+	.caja3{
+		width: 125px;
+		height: 105px;
+	}
+	#nuevo3{
+		width: 500px;
+	}
+	#pie1{
+		width: 200px;
+	}
+
+
+	h3{
+		text-align: center;
+		margin: 0px;
+		font-size: 20px;
+	}
+	.autor{
+		width: 500px;
+	}
+
+}
+/*--------Responsive -599px ------------------------------------------*/
+
+@media all and (max-width: 599px){
+
+	header, #contenido1,#contenido2, #contenido3, #contenido4, footer {
+		width: 100%;
+		height: auto;
+		
+
+	}
+	
+	#logo{
+		width: 40%;
+		float: none;
+		margin-left: 170px;
+	
+		
+	
+	}
+	#cajas_secc4{
+	
+		height: auto;
+	}
+	#botonera1{
+		width: 70%;
+		height: auto;
+		margin: 10px;
+		float: none;
+		margin-left: 80px;
+	
+		
+	}
+
+
+	#botonera1 ul li{
+	display: block;
+	border-style: solid;
+	border-width: 2.4px;
+	border-color: black;
+	border-radius: 10px;
+	text-align: center;
+	height: 40px;
+	font-size: 15px;
+
+	}
+
+	#botonera1 ul li a:hover{
+	background: -webkit-linear-gradient(left,#0038F3,#5D2ACA);	
+	height: 1px;
+	color: white;
+
+	}
+
+	#caja11,#caja12,#caja13,#caja14,#caja15,#caja16{
+		width: 100px;
+		height: 230px;
+		margin: 10px 140px 50px 70px;
+		margin-left: 220px;
+		float: none;
+	}
+
+
+	#nuevo1{
+		width: 90%;
+		height: 200px;
+		margin-left: 20px;
+
+	}
+
+	h2{
+		font-size: 19px;
+		margin: 40px 40px 40px 40px;
+		text-align: center;
+	}
+
+	.caja2{
+		width: 70%;
+		margin: 10px 70px 30px 85px;
+		float: none;
+	}
+
+	.nuevo2{
+		margin-left:60px;
+		width: 80%;
+		float: none;
+	}
+
+	.caja3{
+		width: 105px;
+		height: 100px;
+		margin-left: 90px;
+
+		
+	}
+
+	#nuevo3{
+		width: auto;
+		height: 200px;
+		margin: 0px 40px 5px 40px;
+
+		
+	}
+
+	#caja3_4,#caja5_4, #caja6_4{
+		height: auto;
+	}
+	.cuest{
+	color: whitesmoke;
+	font-family: Kdam Thmor Pro;
+	margin: 10px 10px 10px 10px;
+	font-size: 12px;
+
+
+}
+	
+	
+	#pie1{
+		width: 220px;
+		margin-left: 170px;
+		height: auto;
+		float: none;
+
+		
+	}
+
+	h3{
+		text-align: center;
+		font-size: 15px;	
+
+	}
+
+	.autor{
+		margin: 10px 10px 40px 40px;
+		font-size: 10px;
+
+		
+		
+	}
+	h4{
+		font-size: 15px;
+	}
+
+}
